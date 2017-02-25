@@ -14,9 +14,9 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'books_db',
+        'NAME': 'books',
         'USER': 'root',
-        'PASSWORD': 'password',
+        'PASSWORD': 'X9BlOVKbG3',
         'HOST': 'localhost',
         'PORT': '5432',
         'TEST': {
