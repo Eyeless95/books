@@ -11,20 +11,6 @@ DEBUG = True
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 # Application definition
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'books',
-        'USER': 'root',
-        'PASSWORD': 'X9BlOVKbG3',
-        'HOST': 'localhost',
-        'PORT': '5432',
-        'TEST': {
-            'CHARSET': 'utf8',
-            'COLLATION': 'utf8_general_ci',
-        }
-    }
-}
 
 here = lambda *x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 PROJECT_ROOT = os.path.realpath(here(".."))

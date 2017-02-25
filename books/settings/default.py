@@ -45,6 +45,21 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend'
 )
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'books',
+        'USER': 'root',
+        'PASSWORD': 'X9BlOVKbG3',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'TEST': {
+            'CHARSET': 'utf8',
+            'COLLATION': 'utf8_general_ci',
+        }
+    }
+}
+
 ROOT_URLCONF = 'books.urls'
 
 TEMPLATES = [
